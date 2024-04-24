@@ -11,9 +11,21 @@ public class C03Input {
 //		String str = sc.nextLine();
 //		System.out.printf("%s을(를) 입력했습니다.", str);
 		
-		System.out.println("숫자를 입력하세요.\n> ");
-		int i = sc.nextInt();
-		System.out.println(i + "을(를) 입력했습니다.");
+//		System.out.print("숫자를 입력하세요.\n> ");
+//		int i = sc.nextInt();
+//		System.out.println(i + "을(를) 입력했습니다.");
+//		
+//		System.out.print("숫자를 입력하세요.\n> ");
+//		i = sc.nextInt();
+//		System.out.println(i + "을(를) 입력했습니다.");
+//		
+//		System.out.print("문자열을 입력하세요.\n> ");
+//		String str = sc.nextLine();
+//		System.out.printf("%s을 입력했습니다. ", str);
+		
+		System.out.print("문자를 입력하세요.\n> ");
+		char c = sc.nextLine().charAt(0);
+		System.out.println(c + "을 입력했습니다.");
 
 	}
 }
